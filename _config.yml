@@ -23,6 +23,9 @@ baseurl: ''
 # 吐个槽地址，会在chat页面中重定向到该地址
 tucaoUrl: https://rainfallband.notion.site/7b4f9f16d0a545428f8705cff99a67d0
 
+# 小书架地址，会在小书架页面重定向到notion书架
+bookshelfUrl: https://rainfallband.notion.site/b40057c35e64425285bba9757369be29?v=b5ec5da630a64b52bfed292a48872a6c
+
 # 菜单
 # 必填字段 title: '文本' url: '链接'
 # 可选字段 target: '_blank' 新页面打开 
@@ -35,6 +38,8 @@ menu:
     url: /pages/search.html
   - title: 留言
     url: /pages/chat.html
+  - title: 小书架
+    url: /pages/bookshelf.html
   - title: 关于
     url: /pages/about.html
 
